@@ -3,6 +3,12 @@ name: Test PyPI Release
 
 on:
   workflow_dispatch:  # Manual trigger for testing
+    inputs:
+      test_pypi:
+        description: 'Publish to TestPyPI'
+        required: false
+        default: false
+        type: boolean
 
 jobs:
   test-build-and-publish:
@@ -42,7 +48,7 @@ jobs:
             "import failextract; print('FailExtract imported successfully')"
 
       - name: Test publish to TestPyPI (optional)
-        if: false  # Disabled by default - enable manually for testing
+        if: ${{ inputs.test_pypi }}
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
