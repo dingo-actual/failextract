@@ -66,8 +66,32 @@ jobs:
     - name: Upload documentation artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: documentation-${{ github.sha}}
+        name: github-pages
         path: docs/build/html/
+
+    - name: Verify artifact upload
+      run: |
+        echo "Artifact should be uploaded with name: github-pages"
+        echo "Build completed at: $(date)"
+  
+  # Verify artifact upload
+  verify-artifact:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: List artifacts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const artifacts = await github.rest.actions.listWorkflowRunArtifacts({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.runId,
+            });
+            console.log("Found artifacts:");
+            artifacts.data.artifacts.forEach(a => {
+              console.log(`- Name: ${a.name}, Size: ${a.size_in_bytes}, Created: ${a.created_at}`);
+            });
 
   # Deploy to GitHub Pages (only on release or main branch push)
   deploy:
