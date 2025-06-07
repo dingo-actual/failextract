@@ -5,9 +5,9 @@ FailExtract Documentation
    :target: https://www.python.org/downloads/
    :alt: Python Version
 
-.. image:: https://img.shields.io/badge/license-MIT-green.svg
-   :target: https://opensource.org/licenses/MIT
-   :alt: License: MIT
+.. image:: https://img.shields.io/badge/License-Apache%202.0-blue.svg
+   :target: https://opensource.org/licenses/Apache-2.0
+   :alt: License: Apache 2.0
 
 FailExtract is a lightweight Python library for extracting and analyzing pytest test failures. It provides automatic failure context capture with minimal overhead and supports multiple output formats for different workflows.
 

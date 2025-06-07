@@ -34,7 +34,7 @@ Example:
         $ failextract analyze --trends
 
 Author: FailExtract Contributors
-License: MIT
+License: Apache 2.0
 """
 
 import argparse

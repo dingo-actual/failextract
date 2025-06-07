@@ -37,7 +37,7 @@ Example:
     >>> extractor.save_report(config)
 
 Author: Failextract Contributors
-License: MIT
+License: Apache 2.0
 """
 
 import warnings

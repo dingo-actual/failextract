@@ -2,7 +2,7 @@
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://badge.fury.io/py/failextract.svg)](https://badge.fury.io/py/failextract)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 **FailExtract** is a lightweight test failure extraction and reporting library for pytest environments. It automatically captures detailed failure context including fixture information, source code, and exception details to improve debugging efficiency.
 
@@ -261,4 +261,4 @@ failextract/
 
 ## License
 
-FailExtract is released under the MIT License. See [LICENSE](LICENSE) for details.
+FailExtract is released under the Apache 2.0 License. See [LICENSE](LICENSE) for details.
