@@ -64,9 +64,8 @@ jobs:
         make doctest || true    # Don't fail on doctest issues
         
     - name: Upload documentation artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-pages-artifact@v3
       with:
-        name: github-pages
         path: docs/build/html/
 
     - name: Verify artifact upload
