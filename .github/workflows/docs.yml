@@ -71,7 +71,7 @@ jobs:
         make doctest || true    # Don't fail on doctest issues
         
     - name: Upload documentation artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: documentation
         path: docs/build/html/
@@ -89,7 +89,7 @@ jobs:
     
     steps:
     - name: Download documentation artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: documentation
         path: ./docs
