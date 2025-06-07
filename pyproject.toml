@@ -30,6 +30,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/dingo-actual/failextract"
 Repository = "https://github.com/dingo-actual/failextract"
+Documentation = "https://dingo-actual.github.io/failextract/index.html"
 Issues = "https://github.com/dingo-actual/failextract/issues"
 Changelog = "https://github.com/dingo-actual/failextract/blob/main/CHANGELOG.md"
 

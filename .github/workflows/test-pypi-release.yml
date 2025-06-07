@@ -53,4 +53,8 @@ jobs:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
         run: |
-          python -m twine upload --repository testpypi dist/*
+          echo "Checking if package already exists on TestPyPI..."
+          curl -s "https://test.pypi.org/pypi/failextract/json" | jq '.releases | keys' || echo "Package not found (which is good for first upload)"
+          
+          echo "Uploading to TestPyPI with verbose output..."
+          python -m twine upload --repository testpypi --verbose --skip-existing dist/*
