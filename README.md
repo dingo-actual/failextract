@@ -18,7 +18,7 @@
 
 ## Installation Options
 
-### Installation
+### Installation 
 
 ```bash
 # Standard installation - includes all core formatters
