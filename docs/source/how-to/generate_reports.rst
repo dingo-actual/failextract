@@ -276,7 +276,7 @@ Automated Report Generation
              
          - name: Upload reports as artifacts
            if: always()
-           uses: actions/upload-artifact@v3
+           uses: actions/upload-artifact@v4
            with:
              name: test-failure-reports
              path: |
