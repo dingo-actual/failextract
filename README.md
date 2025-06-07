@@ -3,8 +3,11 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://badge.fury.io/py/failextract.svg)](https://badge.fury.io/py/failextract)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://dingo-actual.github.io/failextract/)
 
 **FailExtract** is a lightweight test failure extraction and reporting library for pytest environments. It automatically captures detailed failure context including fixture information, source code, and exception details to improve debugging efficiency.
+
+📖 **[Read the Full Documentation](https://dingo-actual.github.io/failextract/)** for tutorials, guides, and API reference.
 
 ## Key Features
 
@@ -25,7 +28,7 @@
 pip install failextract
 ```
 
-**Includes**: Failure extraction, JSON/XML/CSV/Markdown formatters, and CLI commands.
+**Includes**: Failure extraction, JSON/XML/CSV/Markdown formatters, and CLI commands. See the [installation guide](https://dingo-actual.github.io/failextract/how-to/install_failextract.html) for details.
 
 ### Optional Features
 
@@ -80,6 +83,8 @@ When this test fails, FailExtract automatically captures:
 - Local variable states
 - Test execution metadata
 
+Learn more in the [getting started tutorial](https://dingo-actual.github.io/failextract/tutorials/getting_started.html).
+
 ### Generate Reports (Core - Always Available)
 
 ```python
@@ -109,6 +114,8 @@ yaml_config = OutputConfig("failures.yaml", format="yaml")
 extractor.save_report(yaml_config)
 ```
 
+See the [multiple formats tutorial](https://dingo-actual.github.io/failextract/tutorials/multiple_formats.html) for examples with all supported formats.
+
 ### Command-Line Interface
 
 FailExtract includes a feature-aware CLI that adapts to your installed extras:
@@ -129,6 +136,8 @@ failextract list --format table
 # Clear stored failure data
 failextract clear --confirm
 ```
+
+For complete CLI documentation, see the [CLI reference](https://dingo-actual.github.io/failextract/reference/api.html#command-line-interface).
 
 ### CI/CD Integration Examples
 
@@ -152,6 +161,8 @@ failextract clear --confirm
     failextract report --format markdown --output test-failures.md
     failextract report --format xml --output test-failures.xml
 ```
+
+See the [CI/CD setup guide](https://dingo-actual.github.io/failextract/how-to/setup_ci_cd.html) for complete integration examples.
 
 ### Progressive Enhancement Examples
 
@@ -188,16 +199,20 @@ failextract report --format json --output failures.json
 failextract stats  # Enhanced with rich formatting
 ```
 
+Learn about all configuration options in the [configuration tutorial](https://dingo-actual.github.io/failextract/tutorials/configuration.html).
+
 ## Documentation
 
-- **Full Documentation**: Complete documentation with tutorials and API reference
-- **Examples**: Working examples in the `examples/` directory
-- **API Reference**: Comprehensive API documentation with examples
-- **Architecture Guide**: Design patterns and extension points
+Complete documentation is available at **[dingo-actual.github.io/failextract](https://dingo-actual.github.io/failextract/)**:
+
+- **[Getting Started Tutorial](https://dingo-actual.github.io/failextract/tutorials/getting_started.html)** - 5-minute walkthrough
+- **[How-To Guides](https://dingo-actual.github.io/failextract/how-to/index.html)** - Practical solutions for common tasks
+- **[API Reference](https://dingo-actual.github.io/failextract/reference/api.html)** - Complete API documentation
+- **[Architecture Discussions](https://dingo-actual.github.io/failextract/discussions/index.html)** - Design patterns and philosophy
 
 ## Contributing
 
-We welcome contributions! Please see our contributing guidelines for details on setting up the development environment and submitting pull requests.
+We welcome contributions! Please see our [contributing guidelines](https://dingo-actual.github.io/failextract/discussions/development_journey.html) for details on setting up the development environment and submitting pull requests.
 
 ### Development Setup
 
