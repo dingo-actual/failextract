@@ -604,11 +604,11 @@ After optimizing performance:
 Key Performance Optimization Takeaways
 ---------------------------------------
 
-✅ **Environment-specific configuration** - Development, CI/CD, and production modes  
-✅ **Memory management** - Limits, cleanup, and monitoring capabilities  
-✅ **Performance measurement** - Overhead benchmarking and regression testing  
-✅ **Selective capture** - Balance detail with performance requirements  
-✅ **Batch processing** - Handle large test suites efficiently  
-✅ **Monitoring and alerting** - Track performance metrics continuously  
+| ✅ **Environment-specific configuration** - Development, CI/CD, and production modes  
+| ✅ **Memory management** - Limits, cleanup, and monitoring capabilities  
+| ✅ **Performance measurement** - Overhead benchmarking and regression testing  
+| ✅ **Selective capture** - Balance detail with performance requirements  
+| ✅ **Batch processing** - Handle large test suites efficiently  
+| ✅ **Monitoring and alerting** - Track performance metrics continuously  
 
 **You now have complete control over FailExtract's performance characteristics!**

@@ -711,11 +711,11 @@ Now that you can create custom formatters:
 Key Custom Formatter Takeaways
 -------------------------------
 
-✅ **Simple interface** - Just implement the `format()` method  
-✅ **Rich input data** - Access failures, passed tests, and metadata  
-✅ **Production-ready patterns** - Error handling, sanitization, limits  
-✅ **Platform-specific examples** - Slack, JUnit, GitHub formats  
-✅ **Performance optimization** - Limit data size and processing time  
-✅ **Flexible integration** - Use directly or integrate with existing systems  
+| ✅ **Simple interface** - Just implement the `format()` method  
+| ✅ **Rich input data** - Access failures, passed tests, and metadata  
+| ✅ **Production-ready patterns** - Error handling, sanitization, limits  
+| ✅ **Platform-specific examples** - Slack, JUnit, GitHub formats  
+| ✅ **Performance optimization** - Limit data size and processing time  
+| ✅ **Flexible integration** - Use directly or integrate with existing systems  
 
 **You can now create formatters for any tool or platform!**

@@ -216,10 +216,10 @@ Troubleshooting
 Success Checklist
 ------------------
 
-✅ Installed FailExtract  
-✅ Added ``@extract_on_failure`` decorator to a function  
-✅ Function failed and was captured  
-✅ Generated JSON and Markdown reports  
-✅ Understood the failure context data  
+| ✅ Installed FailExtract  
+| ✅ Added ``@extract_on_failure`` decorator to a function  
+| ✅ Function failed and was captured  
+| ✅ Generated JSON and Markdown reports  
+| ✅ Understood the failure context data  
 
 **You're ready for the next tutorial!** Your failure extraction workflow is now established.

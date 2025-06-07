@@ -344,11 +344,11 @@ After successful installation:
 Success Checklist
 ------------------
 
-✅ Python 3.8+ installed and verified  
-✅ FailExtract installed with ``pip install failextract``  
-✅ Import test successful: ``import failextract``  
-✅ Basic functionality verified with test script  
-✅ Optional features installed if needed  
-✅ Ready to start using FailExtract!  
+| ✅ Python 3.8+ installed and verified  
+| ✅ FailExtract installed with ``pip install failextract``  
+| ✅ Import test successful: ``import failextract``  
+| ✅ Basic functionality verified with test script  
+| ✅ Optional features installed if needed  
+| ✅ Ready to start using FailExtract!  
 
 **Installation complete - you're ready to start extracting failure data!**

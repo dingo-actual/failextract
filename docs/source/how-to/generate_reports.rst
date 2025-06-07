@@ -557,11 +557,11 @@ After mastering report generation:
 Key Report Generation Takeaways
 --------------------------------
 
-✅ **Multiple formats available** - JSON, Markdown, XML, CSV (+ YAML with optional install)  
-✅ **Programmatic and CLI access** - Use Python API or command-line tools  
-✅ **Flexible configuration** - Control content, limits, and output paths  
-✅ **Error handling** - Graceful degradation when formats aren't available  
-✅ **Integration ready** - Easy automation with CI/CD and external tools  
-✅ **Production scalable** - Memory management and cleanup capabilities  
+| ✅ **Multiple formats available** - JSON, Markdown, XML, CSV (+ YAML with optional install)  
+| ✅ **Programmatic and CLI access** - Use Python API or command-line tools  
+| ✅ **Flexible configuration** - Control content, limits, and output paths  
+| ✅ **Error handling** - Graceful degradation when formats aren't available  
+| ✅ **Integration ready** - Easy automation with CI/CD and external tools  
+| ✅ **Production scalable** - Memory management and cleanup capabilities  
 
 **You can now generate reports for any workflow or tool integration!**

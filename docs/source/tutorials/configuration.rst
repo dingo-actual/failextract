@@ -575,11 +575,11 @@ Now that you understand configuration, you can:
 Key Configuration Takeaways
 ----------------------------
 
-✅ **Decorator configuration** controls capture behavior and performance  
-✅ **Output configuration** manages report generation and formats  
-✅ **Memory management** prevents resource issues in long-running suites  
-✅ **Session reporting** provides comprehensive overview capabilities  
-✅ **Error handling** ensures graceful configuration failures  
-✅ **Environment adaptation** tailors behavior to deployment context  
+| ✅ **Decorator configuration** controls capture behavior and performance  
+| ✅ **Output configuration** manages report generation and formats  
+| ✅ **Memory management** prevents resource issues in long-running suites  
+| ✅ **Session reporting** provides comprehensive overview capabilities  
+| ✅ **Error handling** ensures graceful configuration failures  
+| ✅ **Environment adaptation** tailors behavior to deployment context  
 
 **You now have complete control over FailExtract behavior!**

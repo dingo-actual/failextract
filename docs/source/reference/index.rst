@@ -10,12 +10,6 @@ This reference provides detailed technical information about FailExtract's APIs,
 
    api
 
-API Reference
--------------
-
-:doc:`api`
-   Complete API documentation for all classes, functions, and interfaces
-
 Quick Reference
 ---------------
 

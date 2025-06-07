@@ -40,11 +40,11 @@ What You'll Learn
 
 By completing these tutorials, you'll understand:
 
-✅ **Core Concepts** - How FailExtract captures and stores failure data  
-✅ **Multiple Workflows** - Different ways to generate and use reports  
-✅ **Performance Optimization** - How to configure for different environments  
-✅ **Integration Patterns** - Seamless integration with pytest and CI/CD  
-✅ **Extension Points** - How to customize and extend FailExtract  
+| ✅ **Core Concepts** - How FailExtract captures and stores failure data  
+| ✅ **Multiple Workflows** - Different ways to generate and use reports  
+| ✅ **Performance Optimization** - How to configure for different environments  
+| ✅ **Integration Patterns** - Seamless integration with pytest and CI/CD  
+| ✅ **Extension Points** - How to customize and extend FailExtract  
 
 Tutorial Approach
 -----------------

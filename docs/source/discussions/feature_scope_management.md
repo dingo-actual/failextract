@@ -57,16 +57,16 @@ Feature creep is one of the most common causes of project failure in software de
 **Core Value Analysis**:
 ```
 Unique Capabilities:
-✅ Deep pytest fixture dependency analysis
-✅ Sophisticated test failure context extraction  
-✅ Minimal overhead failure collection
-✅ Multiple output formats for different use cases
+| ✅ Deep pytest fixture dependency analysis
+| ✅ Sophisticated test failure context extraction  
+| ✅ Minimal overhead failure collection
+| ✅ Multiple output formats for different use cases
 
 Commodity Capabilities:
-❌ HTML report generation (external tools: pandoc, sphinx, etc.)
-❌ CI/CD platform integration (platform-specific tools better)
-❌ Chat notifications (webhook-based solutions simpler)
-❌ Analytics dashboards (dedicated tools more powerful)
+| ❌ HTML report generation (external tools: pandoc, sphinx, etc.)
+| ❌ CI/CD platform integration (platform-specific tools better)
+| ❌ Chat notifications (webhook-based solutions simpler)
+| ❌ Analytics dashboards (dedicated tools more powerful)
 ```
 
 **Insight**: Focus resources on unique capabilities, let users integrate with best-of-breed tools for commodity features.

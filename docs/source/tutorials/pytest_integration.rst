@@ -564,11 +564,11 @@ Now that you have pytest integration working:
 Key Integration Takeaways
 --------------------------
 
-✅ **Multiple integration patterns** for different complexity needs  
-✅ **Automatic session reporting** with environment-aware configuration  
-✅ **Selective capture** using pytest markers and fixtures  
-✅ **Advanced plugin system** for comprehensive test monitoring  
-✅ **CI/CD ready** with JSON output for automation  
-✅ **Production scalable** with memory management and limits  
+| ✅ **Multiple integration patterns** for different complexity needs  
+| ✅ **Automatic session reporting** with environment-aware configuration  
+| ✅ **Selective capture** using pytest markers and fixtures  
+| ✅ **Advanced plugin system** for comprehensive test monitoring  
+| ✅ **CI/CD ready** with JSON output for automation  
+| ✅ **Production scalable** with memory management and limits  
 
 **Your test suite now has comprehensive failure monitoring!**

@@ -61,25 +61,25 @@ This documentation follows the `Diátaxis framework <https://diataxis.fr/>`_ for
 
 .. toctree::
    :maxdepth: 2
-   :caption: 📚 Tutorials (Learning-oriented)
+   :caption: 📚 Tutorials
 
    tutorials/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: 🛠️ How-To Guides (Problem-oriented)
+   :caption: 🛠️ How-To Guides
 
    how-to/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: 💭 Discussions (Understanding-oriented)
+   :caption: 💭 Discussions
 
    discussions/index
 
 .. toctree::
    :maxdepth: 2
-   :caption: 📖 Reference (Information-oriented)
+   :caption: 📖 Reference
 
    reference/index
 
@@ -130,11 +130,11 @@ Production Ready
 
 FailExtract is designed for real-world usage:
 
-✅ **Production-tested** with 96% test coverage and comprehensive test suite  
-✅ **Performance-optimized** with <5% overhead in production mode  
-✅ **Memory-managed** with configurable limits for long-running test suites  
-✅ **Thread-safe** singleton architecture for concurrent test execution  
-✅ **CI/CD ready** with command-line interface and automation support  
+| ✅ **Production-tested** with 96% test coverage and comprehensive test suite  
+| ✅ **Performance-optimized** with <5% overhead in production mode  
+| ✅ **Memory-managed** with configurable limits for long-running test suites  
+| ✅ **Thread-safe** singleton architecture for concurrent test execution  
+| ✅ **CI/CD ready** with command-line interface and automation support  
 
 Community and Support
 =====================

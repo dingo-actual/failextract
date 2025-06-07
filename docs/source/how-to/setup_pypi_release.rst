@@ -390,13 +390,13 @@ Security Best Practices
 Success Checklist
 ------------------
 
-✅ PyPI API token created and added to GitHub secrets
-✅ Workflow file created in ``.github/workflows/pypi-release.yml``
-✅ ``pyproject.toml`` properly configured with version
-✅ Local package build tested successfully
-✅ First release triggers workflow execution
-✅ Package successfully uploaded to PyPI
-✅ Package can be installed via ``pip install failextract``
-✅ Installed package imports and functions correctly
+| ✅ PyPI API token created and added to GitHub secrets
+| ✅ Workflow file created in ``.github/workflows/pypi-release.yml``
+| ✅ ``pyproject.toml`` properly configured with version
+| ✅ Local package build tested successfully
+| ✅ First release triggers workflow execution
+| ✅ Package successfully uploaded to PyPI
+| ✅ Package can be installed via ``pip install failextract``
+| ✅ Installed package imports and functions correctly
 
 **Next Steps**: Monitor release process and consider progressive enhancements like automated testing or multi-environment validation.

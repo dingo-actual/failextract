@@ -414,10 +414,10 @@ Now that you understand multiple formats, you can:
 Key Takeaways
 -------------
 
-✅ **Core formats** (JSON, Markdown, XML, CSV) always work  
-✅ **YAML format** requires ``pip install failextract[formatters]``  
-✅ **Each format** serves different workflow needs  
-✅ **Error handling** ensures graceful degradation  
-✅ **Automation** makes multi-format generation routine  
+| ✅ **Core formats** (JSON, Markdown, XML, CSV) always work  
+| ✅ **YAML format** requires ``pip install failextract[formatters]``  
+| ✅ **Each format** serves different workflow needs  
+| ✅ **Error handling** ensures graceful degradation  
+| ✅ **Automation** makes multi-format generation routine  
 
 **You now have flexible reporting for any workflow!**
