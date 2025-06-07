@@ -410,7 +410,7 @@ CI/CD Integration Patterns
          
          - name: Upload failure reports
            if: failure()
-           uses: actions/upload-artifact@v2
+           uses: actions/upload-artifact@v4
            with:
              name: test-failure-reports
              path: |
