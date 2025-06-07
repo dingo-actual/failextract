@@ -1,0 +1,50 @@
+---
+name: Test PyPI Release
+
+on:
+  workflow_dispatch:  # Manual trigger for testing
+
+jobs:
+  test-build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install build tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install build twine
+
+      - name: Build package
+        run: |
+          python -m build
+
+      - name: Validate package
+        run: |
+          # Check that the package can be built and contains expected files
+          python -m twine check dist/*
+
+          # List built artifacts
+          echo "Built artifacts:"
+          ls -la dist/
+
+          # Verify wheel can be installed and imported (test locally)
+          echo "Testing package installation..."
+          pip install dist/*.whl
+          python -c \
+            "import failextract; print('FailExtract imported successfully')"
+
+      - name: Test publish to TestPyPI (optional)
+        if: false  # Disabled by default - enable manually for testing
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
+        run: |
+          python -m twine upload --repository testpypi dist/*
