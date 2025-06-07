@@ -1,6 +1,6 @@
 # FailExtract: Test Failure Analysis Library
 
-<img src="images/failextract.png" alt="FailExtract Logo" width="830" height="415">
+<img src="images/failextract_logo.png" alt="FailExtract Logo" width="830" height="415">
 <br>
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
