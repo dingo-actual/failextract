@@ -1,5 +1,8 @@
 # FailExtract: Test Failure Analysis Library
 
+<img src="images/failextract.png" alt="FailExtract Logo" width="830" height="415">
+<br>
+
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://badge.fury.io/py/failextract.svg)](https://badge.fury.io/py/failextract)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
