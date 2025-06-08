@@ -6,11 +6,11 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://badge.fury.io/py/failextract.svg)](https://badge.fury.io/py/failextract)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://dingo-actual.github.io/failextract/)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue.svg)](https://dingo-actual.github.io/failextract/index.html)
 
 **FailExtract** is a lightweight test failure extraction and reporting library for pytest environments. It automatically captures detailed failure context including fixture information, source code, and exception details to improve debugging efficiency.
 
-📖 **[Read the Full Documentation](https://dingo-actual.github.io/failextract/)** for tutorials, guides, and API reference.
+📖 **[Read the Full Documentation](https://dingo-actual.github.io/failextract/index.html)** for tutorials, guides, and API reference.
 
 ## Key Features
 
@@ -206,7 +206,7 @@ Learn about all configuration options in the [configuration tutorial](https://di
 
 ## Documentation
 
-Complete documentation is available at **[dingo-actual.github.io/failextract](https://dingo-actual.github.io/failextract/)**:
+Complete documentation is available at **[dingo-actual.github.io/failextract](https://dingo-actual.github.io/failextract/index.html)**:
 
 - **[Getting Started Tutorial](https://dingo-actual.github.io/failextract/tutorials/getting_started.html)** - 5-minute walkthrough
 - **[How-To Guides](https://dingo-actual.github.io/failextract/how-to/index.html)** - Practical solutions for common tasks

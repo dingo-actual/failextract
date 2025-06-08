@@ -240,7 +240,7 @@ Documentation deploys automatically via GitHub Actions:
 - **Push to main**: Build and deploy to GitHub Pages  
 - **Releases**: Build and deploy to GitHub Pages
 
-The deployed site is available at: https://dingo-actual.github.io/failextract/
+The deployed site is available at: https://dingo-actual.github.io/failextract/index.html
 
 ### GitHub Actions Workflow
 The `.github/workflows/docs.yml` workflow:
