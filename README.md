@@ -215,7 +215,7 @@ Complete documentation is available at **[dingo-actual.github.io/failextract](ht
 
 ## Contributing
 
-We welcome contributions! Please see our [contributing guidelines](https://dingo-actual.github.io/failextract/discussions/development_journey.html) for details on setting up the development environment and submitting pull requests.
+We welcome contributions! Please see our [contributing guidelines](./CHANGELOG.md) for details on setting up the development environment and submitting pull requests.
 
 ### Development Setup
 
